@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  flex-direction: column;  
+
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.profile-container {
+  margin-top: -60px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main{
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.data-container, .cv-container, .sertifikat-backend-container, .sertifikat-javascript-container{
+  margin-top: 2px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.isi-biodata{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.judul-biodata{
+  margin-bottom: 30px;
+}
+
+.data-image{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #f5f5f5;
+  margin-top: -80px;
+  background-color: white;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #333;
+}
+
+p {
+  color: #666;
+}
